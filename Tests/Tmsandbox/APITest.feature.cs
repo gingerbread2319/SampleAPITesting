@@ -85,7 +85,7 @@ namespace SampleAPITestProject.Tests.Tmsandbox
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Validate Category Details")]
         [NUnit.Framework.TestCaseAttribute("6327", "Carbon credits", "True", "Gallery", "Good position in category", null)]
-        [NUnit.Framework.TestCaseAttribute("6328", "Badges", "True", "Feature", "Better position in category", null)]
+        [NUnit.Framework.TestCaseAttribute("6328", "Badges", "False", "Feature", "Better position in category", null)]
         public async System.Threading.Tasks.Task ValidateCategoryDetails(string categoryID, string name, string canRelist, string promotionName, string promotionDescription, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;

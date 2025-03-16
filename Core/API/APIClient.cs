@@ -8,8 +8,6 @@ namespace SampleAPITestProject.Core.API
         private RestClient client;
         private string baseURL = "";
 
-        public APIClient() { }
-
         public void SetBaseURL(string newURL)
         {
             if (IsValidUrl(newURL))
