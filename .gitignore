@@ -5,6 +5,7 @@
 *.cache
 *.pdb
 *.log
+*.sln
 
 # Ignore build results
 bin/
