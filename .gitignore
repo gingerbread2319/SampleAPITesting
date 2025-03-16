@@ -1,0 +1,19 @@
+# Ignore Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+*.log
+
+# Ignore build results
+bin/
+obj/
+TestResults/
+.DS_Store
+
+# Ignore package management
+packages/
+*.nupkg
+project.lock.json
+package-lock.json
